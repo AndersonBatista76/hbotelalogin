@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+header{
+    margin-left: 94px;
+    margin-top: 50px;
+    font-family: 'Times New Roman';
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+form{
+    margin-left: 94px;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 45px;
+    font-family: 'Times New Roman';
+    font-size: large;
+    
+}
+input[type="email"],[type="password"]{
+    width: 350px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+form input[type="submit"]{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100px;
+    height: 35px;
+    left: 97px;
+    top: 601px;
+
+
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+input[value="Entrar"]{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #ddd5d5;
+}
+
+input:hover{
+    background-color: #ddd5d5;
+}
+
+#text1{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+}
+
+#text2{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    
+}
+
+button{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 280px;
+    height: 35px;
+    left: 97px;
+    top: 601px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+
+    
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: #ddd5d5;
+}
+
